@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Radar</title>
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+
+	<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
+<section id="top">
+<div id="myinput">
+	<form>
+		<div class="parts">
+			<div class="name">
+				<p>Komunikasjon: </p>
+			</div>
+			<div class="in1">
+				<input id="myInput1" type="range" min="0" max="10" step="0.5" value="0" data-show-value="true">
+			</div>
+			<div class="in2">
+				<input id="myInput11" type="range" min="0" max="10" step="0.5" value="0" data-show-value="true">
+			</div>
+		</div>
+		
+		<div class="parts">
+			<div class="name">
+				<p>Samhandling: </p>
+			</div>
+			<div class="in1">
+				<input id="myInput2" type="range" min="0" max="10" step="0.5" value="0" data-show-value="true">
+			</div>
+			<div class="in2">
+				<input id="myInput22" type="range" min="0" max="10" step="0.5" value="0" data-show-value="true">
+			</div>
+		</div> 
+
+		
+		<div class="parts">
+			<div class="name">
+				<p>Ekspertise: </p>
+			</div>
+			<div class="in1">
+				<input id="myInput3" type="range" min="0" max="10" step="0.5" value="0" data-show-value="true">
+			</div>
+			<div class="in2">
+				<input id="myInput33" type="range" min="0" max="10" step="0.5" value="0" data-show-value="true">
+			</div>
+		</div>  
+
+		
+		<div class="parts">
+			<div class="name">
+				<p>Digitalisering: </p>
+			</div>
+			<div class="in1">
+				<input id="myInput4" type="range"min="0" max="10" step="0.5" value="0" data-show-value="true"> 
+			</div>
+			<div class="in2">
+				<input id="myInput44" type="range" min="0" max="10" step="0.5" value="0" data-show-value="true">
+			</div>
+		</div>  
+
+		
+		<div class="parts">
+			<div class="name">
+				<p>Baerekraft: </p>
+			</div>
+			<div class="in1">
+				<input id="myInput5" type="range" min="0" max="10" step="0.5" value="0" data-show-value="true"> 
+			</div>
+			<div class="in2">
+				<input id="myInput55" type="range" min="0" max="10" step="0.5" value="0" data-show-value="true">
+			</div>
+		</div> 
+
+		
+		<div class="parts">
+			<div class="name">
+				<p>Samarbeidspartnere: </p>
+			</div>
+			<div class="in1">
+				<input id="myInput6" type="range" min="0" max="10" step="0.5" value="0" data-show-value="true"> 
+			</div>
+			<div class="in2">
+				<input id="myInput66" type="range" min="0" max="10" step="0.5" value="0" data-show-value="true">
+			</div>
+		</div> 
+
+		
+		<div class="parts">
+			<div class="name">
+				<p>Energi: </p>
+			</div>
+			<div class="in1">
+				<input id="myInput7" type="range" min="0" max="10" step="0.5" value="0" data-show-value="true"> 
+			</div>
+			<div class="in2">
+				<input id="myInput77" type="range" min="0" max="10" step="0.5" value="0" data-show-value="true">
+			</div>
+		</div>
+
+		
+		<div class="parts">
+			<div class="name">
+				<p>Inovasjon: </p>
+			</div>
+			<div class="in1">
+				<input id="myInput8" type="range" min="0" max="10" step="0.5" value="0" data-show-value="true">
+			</div>
+			<div class="in2">
+				<input id="myInput88" type="range" min="0" max="10" step="0.5" value="0" data-show-value="true">
+			</div>
+		</div>  
+	</form>
+
+	<button class="btn-custom" onclick="saveValue()">SUBMIT</button>
+</div>
+
+
+<div id="radar">
+	<canvas id="myChart" width="400" height="400"></canvas>
+</div>
+</section>
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>	
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
